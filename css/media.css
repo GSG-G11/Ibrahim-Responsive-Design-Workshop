@@ -1,53 +1,146 @@
 @media (max-width: 1200px) {
-    /* your code should be written here  */
-    .header-title{
-        font-size: 2.1rem;
-        
-    }
-  }
-  
-  @media (max-width: 600px) {
     .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .top{
-        flex-direction: column-reverse;
-
-    }
-    .nav{
-        flex-direction: row;
-justify-content: space-between;
-    }
-    .grid-content-tile{
-        width: 33.33%;
-    }
-    .header{
-        padding-top: 0;
-    }
-    .header-title{
-        font-size: 2rem;
-    }
-    .nav-link-hyper-main{
-        font-size: 1.3rem;
-    }
-  }
-  
-  @media (min-width: 1800px) {
-       .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
+        display: block;
     }
     .top {
-      display: flex;
-      flex-direction: row;
+        display: block;
+        flex-direction: row;
+     
     }
-    .nav {
-      display: flex;
-      flex-direction: row;
+    .nav-link-hyper-sub {
+        font-size: 5.4rem;
     }
+    
+    .nav-link-hyper-main {
+        font-size: 3.8rem;
+    }
+    .header {
+        padding-top: 5rem;
+    }
+    
+    .header-title {
+        font-size: 4.3rem;
+    }
+    
+    .header-content {
+        font-size: 2.3rem;
+    }
+    
+
+    .grid-content {
+        display: flex;
+    }
+
+    .grid-content-tile {
+        width: 70%;
+    }
+    
+    .grid-content-tile-subtext {
+        font-size: 3.4rem;
+    }
+
+    .grid-content-tile-maintext {
+        font-size: 3.8rem;
+    }
+    
+    
+    .footer-text {
+        font-size: 2.5rem;
+    }
+    
+    .footer-text:nth-of-type(1) {
+        padding-top: 4rem;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: block;
+    }
+    .top {
+        display: block;
+        flex-direction: row;
+     
+    }
+    .nav-link-hyper-sub {
+        font-size: 3.4rem;
+    }
+    
+    .nav-link-hyper-main {
+        font-size: 1.8rem;
+    }
+    .header {
+        padding-top: 3rem;
+    }
+    
+    .header-title {
+        font-size: 3.8rem;
+    }
+    
+    .header-content {
+        font-size: 1.8rem;
+    }
+    
+
+    .grid-content {
+        display: block;
+    }
+
+    .grid-content-tile {
+        width: 100%;
+    }
+    
+    .grid-content-tile-subtext {
+        font-size: 3.4rem;
+    }
+
+    .grid-content-tile-maintext {
+        font-size: 3.8rem;
+    }
+    
+    
+    .footer-text {
+        font-size: 1.5rem;
+    }
+    
+    .footer-text:nth-of-type(1) {
+        padding-top: 4rem;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1800px) {
+    .top {
   
-  }
-  
+    }
+    
+    .site-logo {
+        width: 60rem;
+        justify-content: center;
+    }
+
+    .site-logo-bg {
+        margin-top: 7.5rem;
+        margin-left: 6.5rem;
+        width: 50rem;
+    }
+    
+    
+    .nav-link-hyper-sub {
+        font-size: 5.4rem;
+    }
+    
+    .nav-link-hyper-main {
+        font-size: 5.8rem;
+    }
+    
+    .footer-text {
+        font-size: 3rem;
+    }
+    
+    .footer-text:nth-of-type(1) {
+        padding-top: 4rem;
+        font-size: 3rem;
+    }
+}
